@@ -1,0 +1,29 @@
+user: it an object , used to access resource.
+
+groups: is a set of users.
+
+types of user:
+
+root (Super user)# ;
+
+Sysytem users: is a user which are created by software or applications. for eg if we install appache user , it will create user name appache.
+
+normal user: is  a simple user.($)
+
+UID:
+root user 0 (RH6 & RH7)
+System user: RH6(1-499) Rh7(1-999)
+normal user RH6 (start fro 500) , Rh7(start from 1000).
+
+USer Configuration File:
+/etc/passwd: user account Information.
+/etc/shadow: pssword information will store.
+/etc/group: Group account information will store.
+/etc/gshadow: user Group account informationinformation will store.
+
+
+How to set Passwprd policy: 
+
+need to Edit /etc/passwdd/login.defss
+
+
