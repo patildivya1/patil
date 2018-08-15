@@ -1,0 +1,5 @@
+route table
+access control loist
+subnet
+security group
+authentication key pair.
